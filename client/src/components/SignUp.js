@@ -43,9 +43,9 @@ function SignUp({ onSignup }) {
           Already have an account? Login here!
           </button>
           <h2 className={styles.title_name}>Sign Up</h2>
-          {/* <p style={{ fontSize: "22px" }}>
-            Create an account so you can share your creations with the world!
-          </p> */}
+          <p style={{ fontSize: "22px" }}>
+            Create an account so you can share amazing creations with the world!
+          </p>
 
           <form onSubmit={handleSubmit}>
             <div className={styles.inner_wrapper}>
