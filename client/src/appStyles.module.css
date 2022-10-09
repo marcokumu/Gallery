@@ -256,8 +256,9 @@ min-height: 100vh;
 }
 
 .button_2 {
-    margin-right:5rem;
+    margin-right:0.2rem;
     box-shadow: 8px 5px 8px 2px rgba(45, 43, 43, 0.492);
+
 }
 
 .button_3 {
