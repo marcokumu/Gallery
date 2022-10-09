@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+puts "Seeding database..."
 Gallery.create!([{
     name: "Ogden Contemporary Arts",
     address: '455 25th St, Ogden, UT 84401'
@@ -31,3 +31,4 @@ Gallery.create!([{
     address: '420 E Packer Ave, Bethlehem, PA 18015'
 }]
 )
+puts "Done seeding database."
