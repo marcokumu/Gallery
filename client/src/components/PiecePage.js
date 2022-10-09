@@ -20,9 +20,9 @@ function PiecePage({ onEditPieceClick, piece, user }) {
         <p className={styles.card_description}>{piece.description}</p>
         <br />
       </div>
-      <p>valued at ${piece.worth}</p>
-      <p style={{ textDecoration: "underline" }}>
-        presenter: {piece.user.username}
+      <p>Valued At ${piece.worth}</p>
+      <p style={{ textDecoration: "none" }}>
+        Owner: {piece.user.username}
       </p>
       {user.id === piece.user_id ? (
         <button
