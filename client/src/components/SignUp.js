@@ -40,7 +40,7 @@ function SignUp({ onSignup }) {
       <div className={styles.bg2}>
         <div className={styles.wrapper_su}>
           <button className={styles.button_2} onClick={() => navigate("/")}>
-            back to login
+          Already have an account? Login here!
           </button>
           <h2 className={styles.title_name}>Sign Up</h2>
           {/* <p style={{ fontSize: "22px" }}>
