@@ -1,12 +1,17 @@
-.fancy_Header {
+body{
+min-height: 100vh;
+
+}
+ .fancy_Header {
     color:#ffffff;
-    font-size: 5rem;
+    font-size: 4rem;
     text-shadow: 10px 10px 5px rgba(45, 43, 43, 0.492);
     display: inline;
     vertical-align: top;
     padding: 35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
+    margin-left: 7.4em;
 }
 
 .title_name {
@@ -82,20 +87,21 @@
     background-color: #B0C1D9;
     text-align: center;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .wrapper_su {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 10px 10px 5px 5px rgba(45, 43, 43, 0.492);
-    padding:1rem;
+    padding:0.5rem;
     background-color: #B0C1D9;
     text-align: center;
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: -90px;
     float: left;
     width:40%;
+    /* height: 50%; */
     margin-left: 30%;
 }
 
@@ -125,6 +131,7 @@
 
 .form_field {
     padding:1rem;
+    
 }
 
 .form_f_desc {
@@ -247,7 +254,7 @@
 }
 
 .button_2 {
-    margin-right:30rem;
+    margin-right:5rem;
     box-shadow: 8px 5px 8px 2px rgba(45, 43, 43, 0.492);
 }
 
@@ -314,6 +321,9 @@
     left: 0;
     width: 100%;
     height: 100%;
+    min-height: 100vh;
+    overflow: auto !important
+
 }
 
 .bg3 {
@@ -327,4 +337,5 @@
     left: 0;
     width: 100%;
     height: 100%;
+    
 }
