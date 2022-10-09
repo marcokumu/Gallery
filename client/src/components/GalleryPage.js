@@ -31,7 +31,7 @@ function GalleryPage({ onPieceClick, gallery }) {
       >
         Back
       </button>
-      <h2 className={styles.text}>{gallery.address}</h2>
+      <h2 className={styles.text} >{gallery.address}</h2>
       <button
         onClick={() => navigate("/create_piece")}
         className={styles.add_piece}

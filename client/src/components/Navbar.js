@@ -12,11 +12,19 @@ function Navbar({ onLogoutClick, user }) {
           <button className={styles.nav_button} onClick={onLogoutClick}>
             logout
           </button>
-          <NavLink className={styles.nav_link} to="/galleries">
-            galleries
+          <NavLink
+            className={styles.nav_link}
+            style={{ textDecoration: "none" }}
+            to="/galleries"
+          >
+            Galleries
           </NavLink>
-          <NavLink className={styles.nav_link} to="/profile">
-            profile
+          <NavLink
+            className={styles.nav_link}
+            style={{ textDecoration: "none" }}
+            to="/profile"
+          >
+            Profile
           </NavLink>
         </div>
       ) : null}

@@ -21,7 +21,7 @@ function ProfilePage({
         className={styles.edit_button}
         onClick={() => onDeleteAccountClick(user)}
       >
-        delete account
+        DELETE ACCOUNT
       </button>
       <div className={styles.card_holder}>
         <h1 className={styles.title_name}>{user.username}</h1>

@@ -13,15 +13,16 @@ function Galleries({ onFetchGalleries, galleries, onGalleryClick }) {
   }, []);
 
   return (
-    <div className={styles.gallery_container}>
+    <div className={(styles.gallery_container)}>
       {galleries.map((gallery) => {
         return (
           <div
             className={styles.gallery_name}
             key={gallery.name}
+            style={{ textDecoration: "none" }}
             onClick={() => onGalleryClick(gallery)}
           >
-            <p>{gallery.name}</p>
+            <p>{gallery.name} </p>
           </div>
         );
       })}
