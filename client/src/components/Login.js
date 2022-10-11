@@ -36,9 +36,9 @@ function Login({ onLogin }) {
         <form onSubmit={handleSubmit}>
           <div className={styles.form_field}>
             <label>
-              {"username: "}
+              {"Username: "}
               <input
-                placeholder="enter username"
+                placeholder="Enter username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
@@ -47,9 +47,9 @@ function Login({ onLogin }) {
           </div>
           <div className={styles.form_field}>
             <label>
-              {"password: "}
+              {"Password: "}
               <input
-                placeholder="enter password"
+                placeholder="Enter password"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}

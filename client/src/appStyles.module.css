@@ -19,10 +19,10 @@ min-height: 100vh;
 
 .title_name {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ffffff;
     background-color:#3B4B59;
-    padding:4px;
+    padding:1px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2.5;
 }
@@ -245,7 +245,7 @@ min-height: 100vh;
     margin-right: auto;
     border-radius: 2px;
     padding: 10px;
-    width: 60%;
+    width: 50%;
     box-shadow: 8px 8px 5px 2px rgba(45, 43, 43, 0.857);
     cursor: pointer;
 }
@@ -253,7 +253,7 @@ min-height: 100vh;
 .card_holder {
     margin-left: auto;
     margin-right: auto;
-    width: 80rem;
+    width: 60rem;
     text-align: center;
     font-size: xx-large;
 }
@@ -503,3 +503,11 @@ min-height: 100vh;
   right: 10px;
 }
 
+input{
+    height: 20px;
+    position: relative;
+    border: 2px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .14);
+    background-color: AliceBlue;
+    font-size: 14px;
+}
