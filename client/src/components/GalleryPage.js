@@ -36,7 +36,7 @@ function GalleryPage({ onPieceClick, gallery }) {
         onClick={() => navigate("/create_piece")}
         className={styles.add_piece}
       >
-        + P
+        Add Piece
       </button>
       <div className={styles.gallery_container}>
         {pieces.map((piece) => {

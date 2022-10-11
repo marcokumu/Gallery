@@ -57,13 +57,13 @@ function Login({ onLogin }) {
             </label>
           </div>
           <br />
-          <button className={styles.button} type="submit">
+          <button className={styles.login_button} type="submit">
             Login
           </button>
         </form>
         <br />
         <p>New to Art Gallery? Sign up here!</p>
-        <button className={styles.button_3} onClick={() => navigate("/signup")}>
+        <button className={styles.login_button} onClick={() => navigate("/signup")}>
           Sign Up
         </button>
       </div>

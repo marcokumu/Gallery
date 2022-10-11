@@ -20,6 +20,7 @@ function ProfilePage({
         style={{ marginLeft: "88%" }}
         className={styles.edit_button}
         onClick={() => onDeleteAccountClick(user)}
+        
       >
         DELETE ACCOUNT
       </button>
