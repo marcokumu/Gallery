@@ -54,7 +54,7 @@ function EditPiece({ onUpdatePiece, piece }) {
       </button>
       <div className={styles.wrapper_pc}>
         <button className={styles.button_2} onClick={() => navigate(-1)}>
-          go back
+          Go Back
         </button>
         <h2 className={styles.title_name}>Edit Piece</h2>
 

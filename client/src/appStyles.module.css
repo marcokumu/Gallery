@@ -534,7 +534,7 @@ input{
 }
 
 .button_2:after {
-  content: '';
+  content: '\2936';
   position: absolute;
   opacity: 0;  
   top: 9px;
