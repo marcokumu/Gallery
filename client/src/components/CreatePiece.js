@@ -55,7 +55,7 @@ function CreatePiece({ gallery }) {
           className={styles.button_2}
           onClick={() => navigate("/gallery_page")}
         >
-          back to gallery
+          back to gallery &larr;
         </button>
         <h2 className={styles.title_name}>Upload a Piece</h2>
         <p className={styles.form_f_desc}>Upload work to {gallery.name}</p>

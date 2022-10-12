@@ -1,6 +1,3 @@
-
-
-
 body{
 min-height: 100vh;
 
@@ -510,4 +507,87 @@ input{
     border-color: rgba(0, 0, 0, .14);
     background-color: AliceBlue;
     font-size: 14px;
+}
+
+
+.button_2{
+  border-radius: 4px;
+  background-color: #683636;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.button_2{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_2:after {
+  content: '';
+  position: absolute;
+  opacity: 0;  
+  top: 9px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_2:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.button_2:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.button_20{
+  border-radius: 4px;
+  background-color: #683636;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 320px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.button_20{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_20:after {
+  content: '';
+  position: absolute;
+  opacity: 0;  
+  top: 9px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_20:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.button_20:hover:after {
+  opacity: 1;
+  right: 10px;
 }
