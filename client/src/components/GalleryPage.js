@@ -26,7 +26,7 @@ function GalleryPage({ onPieceClick, gallery }) {
       </h1>
       <button
         style={{ marginLeft: "30px" }}
-        className={styles.button}
+        className={styles.button10}
         onClick={() => navigate("/galleries")}
       >
         Back
