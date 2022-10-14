@@ -7,6 +7,7 @@ class CreatePieces < ActiveRecord::Migration[6.1]
       t.text :description
       t.integer :worth
       t.integer :user_id
+      
 
       t.timestamps
     end
