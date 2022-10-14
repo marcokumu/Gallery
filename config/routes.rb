@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get "/galleries/:id/pieces", to: 'pieces#index_gallery'
   get "/users/:id/pieces", to: 'pieces#index_user'
+  
 
   resources :pieces
 
