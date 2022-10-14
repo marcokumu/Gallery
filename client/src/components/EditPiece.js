@@ -42,6 +42,7 @@ function EditPiece({ onUpdatePiece, piece }) {
     alert("Piece Deleted");
     navigate("/profile");
   }
+  
 
   return (
     <div className={styles.bg3}>
