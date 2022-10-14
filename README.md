@@ -3,7 +3,7 @@
 
 # ART GALLERY APP 
 
-This app provides a platform to art enthusiasts; a place where artists from different parts of the country get to post their art for public viewing. This site also enables artists to see their colleagues' work. The art pieces posted have a name, short description and their estimated value.
+This app provides a platform for art enthusiasts; a place where artists from different parts of the country get to post their art for public viewing. This site also enables artists to see their colleagues' work. The art pieces posted have a name, short description and their estimated value.
 
 ## AUTHOR
 
