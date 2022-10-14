@@ -1,9 +1,62 @@
-# Project Template: React/Rails API
 
-## Description
 
-This project is scaffolded so that you can build a React frontend and Rails
-backend together, and easily deploy them to Heroku.
+
+# ART GALLERY APP 
+
+This app provides a platform to art enthusiasts; a place where artists from different parts of the country get to post their art for public viewing. This site also enables artists to see their colleagues' work. The art pieces posted have a name, short description and their estimated value.
+
+## AUTHOR
+
+- ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FMarkOkumu5)
+- Github:  <a href="https://github.com/marcokumu">marcokumu </a>
+- LinkedIn:  <a href="https://www.linkedin.com/in/markokumu/">marcokumu </a>
+## ART GALLERY DELIVERABLES
+This is an SPA (Single Page Application) that has been built with certain objectives in mind. Some of the objectives include:
+
+
+  1.New users are able to signup to the site.
+
+  2.Users are able to login to the site after signing up.
+
+  3.Users can logout.
+
+  4.The user has their own profile where they can see the pieces of art they own.
+
+  5.The user is able to view art from different artists.
+
+  6.The user can delete their own profile if/when they like.
+
+  7.The user can add art pieces to the different galleries.
+
+  8.The user can view each individual art piece.
+
+  9.The user can edit the details of each art piece that they posted.
+
+  10.The user can delete any art piece they posted if/when they like.
+
+## TECHNOLOGIES USED
+
+    1.RUBY ON RAILS
+
+    2.REACTjs
+
+    3.Postgresql
+
+    4.CSS
+
+    5.HEROKU
+
+
+
+![Alt text](./client/public/Screenshot%20from%202022-10-14%2010-35-55.png "Title")
+![Alt text](./client/public/Screenshot%20from%202022-10-14%2010-34-17.png "Title")
+## LIVE LINK
+
+Here is the project's live link: <br>
+https://gallery-rails-app.herokuapp.com/
+
+
+
 
 ## Requirements
 
@@ -12,46 +65,14 @@ backend together, and easily deploy them to Heroku.
 - Heroku CLI
 - Postgresql
 
-See Environment Setup below for instructions on installing these tools if you
-don't already have them.
 
-## Setup
-
-Start by **cloning** (not forking) the project template repository and removing
-the remote:
+Clone the Github repository:
 
 ```console
-$ git clone git@github.com:learn-co-curriculum/project-template-react-rails-api.git your-project-name
-$ cd your-project-name
-$ git remote rm origin
+$ git clone git@github.com:marcokumu/Gallery.git
 ```
 
-Then, [create a new remote repository][create repo] on GitHub. Head to
-[github.com](https://github.com) and click the **+** icon in the top-right
-corner and follow the steps to create a new repository. **Important**: don't
-check any of the options such as 'Add a README file', 'Add a .gitignore file',
-etc — since you're importing an existing repository, creating any of those files
-on GitHub will cause issues.
-
-[create repo]: https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line#adding-a-project-to-github-without-github-cli
-
-If you're working with a partner,
-[add them as a collaborator][add collaborator] on GitHub. From your repo on
-GitHub, go to Settings > Manage Access > Invite a collaborator and enter your
-partner's username. Once your partner has access, they should git **clone** (not
-fork) the repository.
-
-[add collaborator]: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
-
-Finally, connect the GitHub remote repository to your local repository and push
-up your code:
-
-```console
-$ git remote add origin git@github.com:your-username/your-project-name.git
-$ git push -u origin main
-```
-
-When you're ready to start building your project, run:
+When you're ready to start checking out project, run:
 
 ```sh
 bundle install
@@ -65,223 +86,10 @@ You can use the following commands to run the application:
 - `npm start --prefix client`: run the frontend on
   [http://localhost:4000](http://localhost:4000)
 
-Make sure to also update this README to include documentation about
-your project. Here's a list of some [awesome readmes][] for inspiration.
 
-[awesome readmes]: https://github.com/matiassingers/awesome-readme
 
-## Deploying
 
-This application has all the starter code needed to help you deploy your
-application to Heroku. It's recommended to deploy your project early and push up
-changes often to ensure that your code works equally well in production and
-development environments.
 
-If you've already set up your environment to deploy to Heroku, you can run the
-commands below to deploy your application. If not, make sure to check out the
-Environment Setup section below.
-
-To deploy, first log in to your Heroku account using the Heroku CLI:
-
-```sh
-heroku login
-```
-
-Create the new Heroku app:
-
-```sh
-heroku create my-app-name
-```
-
-Add the buildpacks for Heroku to build the React app on Node and run the Rails
-app on Ruby:
-
-```sh
-heroku buildpacks:add heroku/nodejs --index 1
-heroku buildpacks:add heroku/ruby --index 2
-```
-
-To deploy, commit your code and push the changes to Heroku:
-
-```sh
-git add .
-git commit -m 'Commit message'
-git push heroku main
-```
-
-> Note: depending on your Git configuration, your default branch might be named
-> `master` or `main`. You can verify which by running
-> `git branch --show-current`. If it's `master`, you'll need to run
-> `git push heroku master` instead.
-
-Any time you have changes to deploy, just make sure your changes are committed
-on the main branch of your repo, and push those changes to Heroku to deploy
-them.
-
-You can view your deployed app with:
-
-```sh
-heroku open
-```
-
-## Environment Setup
-
-### Install the Latest Ruby Version
-
-Verify which version of Ruby you're running by entering this in the terminal:
-
-```sh
-ruby -v
-```
-
-Make sure that the Ruby version you're running is listed in the [supported
-runtimes][] by Heroku. At the time of writing, supported versions are 2.6.8,
-2.7.4, or 3.0.2. Our recommendation is 2.7.4, but make sure to check the site
-for the latest supported versions.
-
-If it's not, you can use `rvm` to install a newer version of Ruby:
-
-```sh
-rvm install 2.7.4 --default
-```
-
-You should also install the latest versions of `bundler` and `rails`:
-
-```sh
-gem install bundler
-gem install rails
-```
-
-[supported runtimes]: https://devcenter.heroku.com/articles/ruby-support#supported-runtimes
-
-### Install NodeJS
-
-Verify you are running a recent version of Node with:
-
-```sh
-node -v
-```
-
-If your Node version is not 16.x.x, install it and set it as the current and
-default version with:
-
-```sh
-nvm install 16
-nvm use 16
-nvm alias default 16
-```
-
-You can also update your npm version with:
-
-```sh
-npm i -g npm
-```
-
-### Sign Up for a [Heroku Account][heroku signup]
-
-You can sign up at for a free account at
-[https://signup.heroku.com/devcenter][heroku signup].
-
-### Download the [Heroku CLI][heroku cli] Application
-
-Download the Heroku CLI. For OSX users, you can use Homebrew:
-
-```sh
-brew tap heroku/brew && brew install heroku
-```
-
-For WSL users, run this command in the Ubuntu terminal:
-
-```sh
-curl https://cli-assets.heroku.com/install.sh | sh
-```
-
-If you run into issues installing, check out the [Heroku CLI][heroku cli]
-downloads page for more options.
-
-After downloading, you can login via the CLI in the terminal:
-
-```sh
-heroku login
-```
-
-This will open a browser window to log you into your Heroku account. After
-logging in, close the browser window and return to the terminal. You can run
-`heroku whoami` in the terminal to verify that you have logged in successfully.
-
-[heroku signup]: https://signup.heroku.com/devcenter
-[heroku cli]: https://devcenter.heroku.com/articles/heroku-cli#download-and-install
-
-### Install Postgresql
-
-Heroku requires that you use PostgreSQL for your database instead of SQLite.
-PostgreSQL (or just Postgres for short) is an advanced database management
-system with more features than SQLite. If you don't already have it installed,
-you'll need to set it up.
-
-#### PostgreSQL Installation for WSL
-
-To install Postgres for WSL, run the following commands from your Ubuntu terminal:
-
-```sh
-sudo apt update
-sudo apt install postgresql postgresql-contrib libpq-dev
-```
-
-Then confirm that Postgres was installed successfully:
-
-```sh
-psql --version
-```
-
-Run this command to start the Postgres service:
-
-```sh
-sudo service postgresql start
-```
-
-Finally, you'll also need to create a database user so that you are able to
-connect to the database from Rails. First, check what your operating system
-username is:
-
-```sh
-whoami
-```
-
-If your username is "ian", for example, you'd need to create a Postgres user
-with that same name. To do so, run this command to open the Postgres CLI:
-
-```sh
-sudo -u postgres -i
-```
-
-From the Postgres CLI, run this command (replacing "ian" with your username):
-
-```sh
-createuser -sr ian
-```
-
-Then enter `control + d` or type `logout` to exit.
-
-[This guide][postgresql wsl] has more info on setting up Postgres on WSL if you
-get stuck.
-
-[postgresql wsl]: https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql
-
-#### Postgresql Installation for OSX
-
-To install Postgres for OSX, you can use Homebrew:
-
-```sh
-brew install postgresql
-```
-
-Once Postgres has been installed, run this command to start the Postgres
-service:
-
-```sh
-brew services start postgresql
-```
 
 ## Troubleshooting
 
@@ -317,11 +125,12 @@ troubleshoot:
   machine before re-deploying. You can also check the logs on the server by
   running `heroku logs`.
 
-For additional support, check out these guides on Heroku:
+## CONTRIBUTING
 
-- [Deploying a Rails 6 App to Heroku][heroku rails deploying guide]
-- [Rails Troubleshooting on Heroku][troubleshooting guide on heroku]
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-[postgres downloads page]: https://postgresapp.com/downloads.html
-[heroku rails deploying guide]: https://devcenter.heroku.com/articles/getting-started-with-rails6
-[troubleshooting guide on heroku]: https://devcenter.heroku.com/articles/getting-started-with-rails6#troubleshooting
+## LICENSE
+
+<a href="https://choosealicense.com/licenses/mit/">[MIT]</a>
+
+![APM](https://img.shields.io/apm/l/pack?style=for-the-badge)
